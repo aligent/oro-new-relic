@@ -1,0 +1,2 @@
+bundles:
+  - { name: Aligent\NewRelicBundle\AligentNewRelicBundle, priority: 0 }

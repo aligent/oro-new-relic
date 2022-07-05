@@ -1,0 +1,5 @@
+services:
+  aligent_new_relic.transaction_extension:
+    class: Aligent\NewRelicBundle\Consumption\Extension\TransactionExtension
+    tags:
+      - { name: 'oro_message_queue.consumption.extension', persistent: true, priority: 10 }
